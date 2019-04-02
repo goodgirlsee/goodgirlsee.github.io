@@ -2,11 +2,17 @@
   <head>
     <style>
       body, * {
-        padding: 0px;
-        margin: 0px;
-        text-decoration: none;
-        color: #fff;
+        padding: 0px; margin: 0px; text-decoration: none; color: #fff;
       }
+      
+      .button {
+        border: thin solid #fff; padding: 20px; display: inline-block; font-size: 2em; cursor: pointer; transition: transform .4s; 
+      }
+      
+      .button:hover {
+        transform: scale(1.5);
+      }
+      
     </style>
   </head>
 <body>
@@ -20,9 +26,7 @@
     We dance at private parties. <br /><br />
   </div>
   <div style="padding: 20px;">
-    <div style="border: thin solid #fff; padding: 20px; display: inline-block; font-size: 2em;">
-      <a href="mailto:goodgirlsestonia@gmail.com">Ask for details</a>
-    </div>
+    <a class="button" href="mailto:goodgirlsestonia@gmail.com">Ask for details</a>
   </div>
 </div>
 
